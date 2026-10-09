@@ -1,0 +1,170 @@
+[
+  {
+    "skill": "Python",
+    "question": "What is the difference between a shallow copy and a deep copy of a compound object in Python?",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "options": [
+      "A shallow copy constructs a new compound object and inserts references to objects found in the original, whereas a deep copy constructs a new object and recursively copies copies of objects found in the original.",
+      "A shallow copy copies immutable objects only, while a deep copy copies mutable objects only.",
+      "A shallow copy modifies the original object in place, while a deep copy returns None.",
+      "There is no difference; they are synonymous functions in the copy module."
+    ],
+    "correct_answer": "A shallow copy constructs a new compound object and inserts references to objects found in the original, whereas a deep copy constructs a new object and recursively copies copies of objects found in the original.",
+    "rubric": "Evaluates understanding of reference semantics and memory management in Python."
+  },
+  {
+    "skill": "Python",
+    "question": "How does the Global Interpreter Lock (GIL) affect multithreaded CPU-bound Python programs?",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "options": [
+      "It allows threads to execute bytecodes simultaneously across multiple physical CPU cores.",
+      "It prevents multiple native threads from executing Python bytecodes concurrently, limiting CPU-bound speedups across threads in CPython.",
+      "It automatically converts CPU-bound tasks into asynchronous coroutines.",
+      "It completely disables threading in Python."
+    ],
+    "correct_answer": "It prevents multiple native threads from executing Python bytecodes concurrently, limiting CPU-bound speedups across threads in CPython.",
+    "rubric": "Evaluates understanding of CPython concurrency model."
+  },
+  {
+    "skill": "SQL",
+    "question": "Which SQL clause is used to filter records resulting from a GROUP BY aggregation?",
+    "type": "multiple_choice",
+    "difficulty": 1,
+    "options": [
+      "HAVING",
+      "WHERE",
+      "ORDER BY",
+      "QUALIFY"
+    ],
+    "correct_answer": "HAVING",
+    "rubric": "Tests basic SQL aggregation filtering syntax."
+  },
+  {
+    "skill": "SQL",
+    "question": "What is the difference between UNION and UNION ALL in standard SQL?",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "options": [
+      "UNION removes duplicate rows from the combined result set, whereas UNION ALL retains all duplicates.",
+      "UNION works only on indexed tables, whereas UNION ALL works on unindexed tables.",
+      "UNION is faster because it sorts data automatically.",
+      "UNION combines columns, while UNION ALL combines rows."
+    ],
+    "correct_answer": "UNION removes duplicate rows from the combined result set, whereas UNION ALL retains all duplicates.",
+    "rubric": "Tests SQL set operations and performance awareness."
+  },
+  {
+    "skill": "SQL",
+    "question": "Write or select the SQL clause used to calculate a running total partitioned by department.",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "options": [
+      "SUM(salary) OVER (PARTITION BY department_id ORDER BY hire_date)",
+      "RUNNING_SUM(salary) GROUP BY department_id",
+      "SUM(salary) WHERE department_id = CURRENT",
+      "ACCUMULATE(salary) OVER department_id"
+    ],
+    "correct_answer": "SUM(salary) OVER (PARTITION BY department_id ORDER BY hire_date)",
+    "rubric": "Tests window functions and analytical querying in SQL."
+  },
+  {
+    "skill": "Java",
+    "question": "What is the main distinction between 'equals()' and '==' when comparing two objects in Java?",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "options": [
+      "'==' checks if both references point to the same memory address, while 'equals()' compares the values/contents for logical equivalence (if overridden).",
+      "'==' compares object contents, while 'equals()' checks memory address.",
+      "'equals()' only works on primitive types.",
+      "They behave identically for all objects."
+    ],
+    "correct_answer": "'==' checks if both references point to the same memory address, while 'equals()' compares the values/contents for logical equivalence (if overridden).",
+    "rubric": "Tests core Java object equality concepts."
+  },
+  {
+    "skill": "REST APIs",
+    "question": "Which HTTP method is defined as idempotent according to the HTTP/1.1 RFC specification?",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "options": [
+      "PUT and DELETE",
+      "POST and PATCH",
+      "CONNECT and POST",
+      "Only POST"
+    ],
+    "correct_answer": "PUT and DELETE",
+    "rubric": "Tests HTTP semantics and REST idempotency principles."
+  },
+  {
+    "skill": "REST APIs",
+    "question": "What HTTP status code should typically be returned when a resource is successfully created via a POST request?",
+    "type": "multiple_choice",
+    "difficulty": 1,
+    "options": [
+      "201 Created",
+      "200 OK",
+      "204 No Content",
+      "302 Found"
+    ],
+    "correct_answer": "201 Created",
+    "rubric": "Tests standard REST response code semantics."
+  },
+  {
+    "skill": "Git",
+    "question": "What does 'git rebase' do when reapplying commits onto a new base branch?",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "options": [
+      "It creates new commits on top of the base branch for each commit in the current branch, creating a linear history.",
+      "It merges branches with a 3-way merge commit and preserves original commit hashes.",
+      "It permanently deletes all local changes not staged in the index.",
+      "It pushes the local branch to the remote repository immediately."
+    ],
+    "correct_answer": "It creates new commits on top of the base branch for each commit in the current branch, creating a linear history.",
+    "rubric": "Tests Git branch management and history rewriting."
+  },
+  {
+    "skill": "Data Engineering",
+    "question": "In data pipeline architecture, what is the primary benefit of designing idempotent ETL pipelines?",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "options": [
+      "Rerunning a failed pipeline task produces the same consistent output without generating duplicate records or corrupting downstream tables.",
+      "It guarantees zero CPU usage during data transformations.",
+      "It eliminates the need for schema validation.",
+      "It converts batch processing automatically into real-time streaming."
+    ],
+    "correct_answer": "Rerunning a failed pipeline task produces the same consistent output without generating duplicate records or corrupting downstream tables.",
+    "rubric": "Tests fundamental data pipeline reliability design."
+  },
+  {
+    "skill": "Docker",
+    "question": "What is the primary advantage of multi-stage Docker builds?",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "options": [
+      "Minimizing final image size and attack surface by leaving build tools and intermediate artifacts out of the production container image.",
+      "Running multiple distinct Linux kernels within one container.",
+      "Automatically provisioning Kubernetes clusters.",
+      "Encrypting docker volumes at rest."
+    ],
+    "correct_answer": "Minimizing final image size and attack surface by leaving build tools and intermediate artifacts out of the production container image.",
+    "rubric": "Tests container optimization and build best practices."
+  },
+  {
+    "skill": "AWS",
+    "question": "What is the difference between AWS S3 Standard and Amazon EC2 Instance Store?",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "options": [
+      "S3 provides highly durable, persistent object storage, whereas EC2 Instance Store provides ephemeral block storage that is lost when the instance is stopped.",
+      "S3 is temporary memory, while Instance Store is cold archival storage.",
+      "S3 cannot store files larger than 10MB.",
+      "Instance Store retains data permanently across any instance lifecycle state."
+    ],
+    "correct_answer": "S3 provides highly durable, persistent object storage, whereas EC2 Instance Store provides ephemeral block storage that is lost when the instance is stopped.",
+    "rubric": "Tests AWS cloud storage architecture principles."
+  }
+]

@@ -1,0 +1,172 @@
+job_title,company_name,location,workplace_type,employment_type,salary_min,salary_max,salary_currency,original_job_url,application_url,job_description
+Senior Data Engineer,Acme Cloud Analytics,San Francisco CA,hybrid,full-time,155000,195000,USD,https://acmeanalytics.example.com/careers/de-401,https://acmeanalytics.example.com/apply/de-401,"About Acme Cloud Analytics: We build high-throughput data processing platforms for global enterprises.
+
+Role Overview:
+We are looking for a Senior Data Engineer to architect and scale our real-time streaming and batch ETL data pipelines. You will collaborate closely with platform architects and data scientists to support multi-terabyte data warehousing.
+
+Key Responsibilities:
+• Build and maintain robust data pipelines using Apache Spark and Airflow.
+• Design modern data warehousing solutions in Snowflake and BigQuery.
+• Implement scalable streaming data ingestion with Apache Kafka.
+• Optimize SQL queries, data models, and star schemas for high query performance.
+• Write production ETL jobs in Python and Scala with automated data quality checks.
+
+Requirements:
+• 5+ years of professional experience in data engineering or distributed systems.
+• Strong proficiency in Python and advanced SQL.
+• Hands-on experience with Apache Spark, Airflow, and Kafka.
+• Deep understanding of data warehousing architecture and dimensional modeling.
+• Bachelor's degree in Computer Science, Software Engineering, or related technical field.
+
+Nice to Have:
+• Experience with dbt and Databricks.
+• Exposure to AWS cloud infrastructure (S3, EC2, EMR).
+
+Application deadline: December 15, 2026.
+For inquiries, reach out to: Sarah Connor (Technical Recruiter) at sarah.connor@acmeanalytics.com or phone +1-415-555-0199."
+Senior Python Backend Engineer,FinTech Core Inc,New York NY,remote,full-time,140000,180000,USD,https://fintechcore.example.com/jobs/py-202,https://fintechcore.example.com/apply/py-202,"FinTech Core Inc is modernizing digital payments and cross-border settlement infrastructure.
+
+Role Overview:
+We are seeking an experienced Senior Python Backend Engineer to design secure, low-latency REST APIs and microservices. You will work on financial transaction routing engines that handle millions of daily requests.
+
+Key Responsibilities:
+• Architect, build, and deploy mission-critical REST APIs using FastAPI and Django.
+• Integrate with PostgreSQL databases and implement high-performance Redis caching.
+• Write clean, test-driven Python code backed by comprehensive unit and integration tests.
+• Collaborate with DevOps teams to deploy containerized microservices using Docker and Kubernetes.
+• Enforce strict financial security standards and CI/CD automated deployment pipelines.
+
+Requirements:
+• 4+ years of professional software engineering experience.
+• Expert proficiency in Python, FastAPI, or Django.
+• Strong relational database skills in PostgreSQL and complex SQL queries.
+• Hands-on experience with Git, Docker, and CI/CD pipelines.
+• Bachelor's degree in Computer Science or equivalent practical experience.
+
+Bonus Qualifications:
+• Experience with AWS (EC2, S3) and Terraform.
+• Familiarity with message brokers such as Kafka or RabbitMQ.
+
+Contact: Reach out to Marcus Vance at marcus.talent@fintechcore.com."
+Machine Learning Scientist,NeuralVision AI,Boston MA,onsite,full-time,150000,190000,USD,https://neuralvision.example.com/careers/ml-101,https://neuralvision.example.com/apply/ml-101,"NeuralVision AI pioneers computer vision and multi-modal predictive models for medical diagnostics.
+
+Role Overview:
+We are hiring a Machine Learning Scientist to lead research and deployment of predictive modeling systems. You will develop state-of-the-art architectures from raw data to production inference.
+
+Key Responsibilities:
+• Conduct feature engineering, model training, and rigorous model evaluation.
+• Develop predictive algorithms using scikit-learn, PyTorch, and NLP toolkits.
+• Run exploratory data analysis on large unstructured datasets using Pandas and NumPy.
+• Collaborate with clinical experts to validate model interpretability and cross-validation metrics.
+• Deploy scalable inference endpoints with FastAPI and Docker.
+
+Requirements:
+• Master's or Ph.D. in Computer Science, AI/ML, Statistics, or related discipline.
+• 3+ years of experience training and evaluating machine learning models.
+• Advanced programming in Python and machine learning libraries (scikit-learn, PyTorch, Pandas).
+• Strong theoretical grounding in feature engineering and statistical analysis.
+
+Preferred Qualifications:
+• Experience with natural language processing (NLP) and transformers.
+• Familiarity with cloud model deployment on AWS or GCP.
+
+Closing date: November 30, 2026.
+Inquiries: talent@neuralvision.example.com"
+Cloud DevOps Engineer,ScaleOps Networks,Austin TX,hybrid,full-time,130000,165000,USD,https://scaleops.example.com/jobs/devops-55,https://scaleops.example.com/apply/devops-55,"ScaleOps Networks automates multi-cloud infrastructure and developer developer experience for high-growth tech companies.
+
+Role Overview:
+We are looking for a Cloud DevOps Engineer to maintain our global AWS infrastructure and optimize our deployment pipelines.
+
+Key Responsibilities:
+• Provision and manage immutable infrastructure using Terraform and Ansible.
+• Administer production Kubernetes clusters (EKS) and Docker containers.
+• Build and improve automated CI/CD pipelines using GitHub Actions and Git.
+• Monitor system reliability, uptime, and latency across distributed services.
+• Enforce cloud security compliance across AWS S3, EC2, VPC, and IAM policies.
+
+Requirements:
+• 3+ years of experience in Cloud and DevOps engineering.
+• Deep expertise in AWS (S3, EC2, IAM, CloudWatch).
+• Proven track record with Docker, Kubernetes, and Linux systems administration.
+• Strong scripting skills in Python, Bash, or shell scripting.
+
+Nice to Have:
+• Experience with Azure or GCP multi-cloud setups.
+• Familiarity with Prometheus, Grafana, and Datadog monitoring.
+
+Application deadline: January 10, 2027. Recruiter: Alex Rivera."
+Senior Data Analyst & BI Developer,Global Retail Media,Chicago IL,onsite,full-time,95000,125000,USD,https://globalretail.example.com/careers/bi-88,https://globalretail.example.com/apply/bi-88,"Global Retail Media powers omnichannel advertising intelligence for Fortune 500 consumer brands.
+
+Role Overview:
+We are looking for a Senior Data Analyst & BI Developer to transform complex retail point-of-sale data into actionable business intelligence dashboards and executive reports.
+
+Key Responsibilities:
+• Design, develop, and maintain enterprise dashboards in Power BI and Tableau.
+• Write complex SQL queries, window functions, and CTEs to extract insights from PostgreSQL and Snowflake.
+• Perform deep-dive statistical analysis and A/B test evaluation to guide promotional campaigns.
+• Partner with product marketing and operations teams to automate weekly and monthly reporting.
+• Clean and transform raw datasets using Excel and Python (Pandas).
+
+Requirements:
+• 3+ years of analytics and business intelligence experience.
+• Advanced proficiency in SQL and relational databases.
+• Demonstrated mastery in Power BI, Tableau, and DAX modeling.
+• Strong proficiency in Excel (pivot tables, power query, advanced modeling).
+• Bachelor's degree in Business Analytics, Statistics, Economics, or related quantitative field.
+
+Preferred Skills:
+• Working knowledge of Python and Pandas for data manipulation.
+• Experience with statistical analysis and hypothesis testing."
+Full Stack Software Developer,NovaWave Systems,Seattle WA,remote,full-time,125000,160000,USD,https://novawave.example.com/openings/fs-12,https://novawave.example.com/apply/fs-12,"NovaWave Systems creates next-generation collaborative workspace tools for distributed engineering teams.
+
+Role Overview:
+Join our product engineering squad as a Full Stack Software Developer building real-time collaboration features.
+
+Key Responsibilities:
+• Build intuitive, responsive user interfaces using React, TypeScript, and Next.js.
+• Develop high-performance backend REST APIs in Node.js and Python.
+• Integrate frontend state management with backend PostgreSQL and Redis instances.
+• Write automated tests using Jest and Pytest to ensure code quality.
+• Collaborate in an agile team using Git, code reviews, and CI/CD pipelines.
+
+Requirements:
+• 3+ years of full stack software engineering experience.
+• Proficiency in React, TypeScript, and JavaScript.
+• Experience designing and consuming REST APIs.
+• Solid foundation in SQL databases and schema design.
+• BS degree in Computer Science or equivalent practical experience.
+
+Bonus Skills:
+• Familiarity with Docker and AWS deployment."
+Junior Data Engineer,Apex Logistics Tech,Atlanta GA,onsite,full-time,75000,95000,USD,https://apexlogistics.example.com/jobs/jde-01,https://apexlogistics.example.com/apply/jde-01,"Apex Logistics Tech builds smart fleet dispatching and supply-chain tracking tools.
+
+Role Overview:
+We are seeking an enthusiastic Junior Data Engineer to assist in maintaining our relational database schemas, ETL pipelines, and daily operational reporting.
+
+Key Responsibilities:
+• Assist in developing data pipelines and ingestion scripts in Python.
+• Maintain and write queries in PostgreSQL and MySQL databases.
+• Monitor scheduled Airflow DAGs and resolve pipeline delays.
+• Assist data analysts with clean data extracts and table transformations.
+
+Requirements:
+• 1+ years of experience or degree in Computer Science, Data Science, or Information Systems.
+• Foundational skills in Python and SQL.
+• Understanding of ETL principles and relational database structures.
+• Eagerness to learn Apache Spark, Docker, and cloud data warehouses."
+Platform Infrastructure Architect,Aether Cloud,San Jose CA,hybrid,full-time,185000,230000,USD,https://aethercloud.example.com/careers/arch-99,https://aethercloud.example.com/apply/arch-99,"Aether Cloud delivers enterprise-grade hybrid cloud orchestration.
+
+Role Overview:
+We are looking for a Platform Infrastructure Architect to lead architectural vision across our Kubernetes clusters, Terraform infrastructure, and microservices backends.
+
+Key Responsibilities:
+• Architect global Kubernetes multi-cluster infrastructure across AWS and GCP.
+• Define Infrastructure as Code standards using Terraform.
+• Guide engineering teams on microservice reliability, CI/CD pipelines, and security best practices.
+• Optimize cloud cost and compute utilization across large EC2 fleets.
+
+Requirements:
+• 7+ years of DevOps, infrastructure, or software engineering experience.
+• Mastery of Kubernetes, Docker, and Linux internals.
+• Deep expertise in AWS cloud services and Terraform.
+• Excellent communication and architectural documentation skills."
