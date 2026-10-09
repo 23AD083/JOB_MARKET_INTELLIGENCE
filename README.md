@@ -169,42 +169,6 @@ Open your browser and navigate to `http://localhost:7860`.
 
 ---
 
-## 🤗 Hugging Face Spaces Deployment Guide
-
-Deploying this pipeline to Hugging Face Spaces takes under 3 minutes:
-
-1. **Create a New Space on Hugging Face**:
-   - Go to [Hugging Face Spaces](https://huggingface.co/spaces) and click **Create new Space**.
-   - Set **Space SDK** to `Gradio`.
-   - Set **Hardware** to `CPU basic` (free tier is fully supported).
-
-2. **Clone the Space Repository Locally**:
-   ```bash
-   git clone https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
-   cd YOUR_SPACE_NAME
-   ```
-
-3. **Copy Pipeline Files**:
-   Copy all project files into your cloned repository directory:
-   ```bash
-   # Ensure README.md, requirements.txt, app.py, and all source folders are present
-   ```
-
-4. **Optional Secrets (Environment Variables)**:
-   In your Hugging Face Space settings under **Repository Secrets**, you can optionally configure:
-   - `DATABASE_URL`: Connection string for external PostgreSQL (e.g., Supabase / Neon / RDS) if you desire persistent storage across Space restarts.
-   - `ADZUNA_APP_ID`: Your Adzuna App ID.
-   - `ADZUNA_APP_KEY`: Your Adzuna App Key.
-
-5. **Commit and Push to Hugging Face**:
-   ```bash
-   git add .
-   git commit -m "Deploy Complete Non-LLM Job Intelligence Pipeline"
-   git push origin main
-   ```
-   Hugging Face will automatically install `requirements.txt` and run `app.py`.
-
----
 
 ## 📊 Standardized Schema Reference
 
@@ -294,6 +258,11 @@ tests/test_summarize.py::test_not_specified_fallback_without_guessing PASSED [10
 ```
 
 ---
+<img width="1620" height="876" alt="Screenshot 2026-10-09 143644" src="https://github.com/user-attachments/assets/2c50e786-a53b-40bf-b719-92d64c333db7" />
+<img width="1579" height="606" alt="Screenshot 2026-10-09 143658" src="https://github.com/user-attachments/assets/9c9562bc-d09e-4ad8-a939-df0c8f345ea7" />
+<img width="1529" height="879" alt="Screenshot 2026-10-09 143723" src="https://github.com/user-attachments/assets/3e1d156e-086e-4862-a729-a592b415f9e8" />
+<img width="1600" height="877" alt="Screenshot 2026-10-09 143710" src="https://github.com/user-attachments/assets/7246b998-cff7-412d-a2ec-3e99171f6423" />
+
 
 ## 📄 License
 This project is licensed under the MIT License.
